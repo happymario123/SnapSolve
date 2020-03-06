@@ -1,0 +1,44 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Until next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back anytime!"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, I can't understand you", "Please give me more info", "I'm not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can help you with your questions!", "I scan the internet for the best responses to your questions!", "I know almost everything if you ask!"],
+         "context": [""]
+        },
+        {"tag": "phyics_terms",
+         "patterns": ["alternating current", "battery", "cell", "circuit", "circuit board", "conduction", "conductor", "current", "diode", "direct current", "electric discharge", "direct current", "electric discharge", "electric force", "electric motor", "electric power", "electrode", "electrolyte", "electromagnet", "electromagnetic induction", "electromagnetic wave", "electromagnetism", "generator", "induction", "insulator", "integrated circuit", "law of electric charges", "load", "magnet", "magnetic field", "magnetic force", "ohm's law", "parallel circuit", "poles", "potential difference", "resistance", "semiconductor", "series circuit", "solenoid", "static electricity", "thermocouple", "transformer", "transistor", "voltage", "watt", "electric potential", "charge", "circuit", "resistance", "charge", "insulator", "capacitor", "conductor", "coulomb", "nC", "C", "wavelength", "c", "particle", "force", "electric", "gravity", "push", "velocity", "slope", "parametric", "amplitude", "reflection", "refraction"],
+         "responses": ["This is a Physics question!"],
+         "context": [""]
+        },
+        {"tag": "math_terms",
+         "patterns": ["add", "addend", "addition", "angle", "answer", "area", "arithmetic", "average", "axis", "billion", "binary", "calculate", "cardinal", "carry", "circle", "circumference", "compass", "cone", "coordinates", "cosine", "counting","cube","curve", "cylinder", "decimal", "degree", "denominator", "diameter", "difference", "divide", "division", "divisor", "dozen", "ellipse", "equal", "equation","equilateral", "even", "exponent", "expression", "factor", "factorial", "focus", "formula", "fraction", "geometry", "graph", "greater", "greater than", "half","hyperbola", "hypotenuse", "identity", "imaginary", "inequality", "integer", "intersection", "inverse", "irrational number", "isosceles", "less", "less than", "line", "linear", "long division", "math", "mathematician", "mathematics", "mean", "median", "minus", "modular", "multiplicand", "multiply", "nano-negative", "null", "number", "number line", "numeral", "numerator", "numerical", "obtuse", "octagon", "odd", "one", "operation", "or", "parabola", "parallel", "parallelogram", "percent", "perimeter", "perpendicular", "pi", "plane", "plot", "plus", "point","polygon", "polyhedron", "polynomial", "power", "prime number", "product", "proof", "protractor", "pyramid", "Q.E.D.", "quadratic", "quadrilateral", "quarter", "quotient", "radian", "radius", "rational number", "ray", "real number", "rectangle", "remainder", "rhombus", "right angle", "rounded", "scientific notation", "series", "set", "skip", "counting", "slope", "solve", "sphere", "square", "square root", "subtract", "subtrahend", "sum", "symbol", "symmetry", "tangent", "times", "torus", "trapezoid", "triangle", "union", "unit", "variable", "venn diagram", "vertex", "volume", "whole number", "x-axis", "x-coordinate", "y-axis", "y-coordinate", "zero", "matrix", "integral", "derivative", "antiderivative", "addition", "subtraction", "percent", "algebra", "perpendicular", "area", "array", "logarithm", "bell curve", "polynomial", "statistics", "finite", "definite", "irregular"],
+         "responses": ["This is a Math question!"],
+         "context": [""]
+        },
+        {"tag": "chemistry_terms",
+         "patterns": ["absolute zero", "accuracy", "acid", "addition", "alcohol", "aldehyde", "alkali metal", "alkali", "alkane", "alkene", "alpha particle", "amine", "base", "beta particle", "binary compound", "binding energy", "bond energy", "bond length", "buffer", "calorimetry", "carboxyl acid", "catalyst", "cathode", "chemical equation", "chemical property", "covalent bond", "critical mass", "critical point", "crystal", "delocalization", "denature", "diffusion", "dilution", "dissociation", "effusion", "electrolysis", "electrolyte", "enantiomers", "endothermic", "endpoint", "energy level", "enthalpy", "entropy", "enzyme", "equilibrium", "equivalence point", "ester", "excess reagent", "excited state", "exothermic", "family", "kelvin", "ketone", "kinetic energy", "lanthanide contraction", "lattice energy", "law of conservation of energy", "ligand", "mass", "mole", "node", "nucleon", "oxidation number", "period", "precision", "pressure", "product", "quantum theory", "radioactivity", "raoult's law", "rate determining step", "rate law", "redox reaction", "resonance structure", "reversible reaction", "velocity", "salt", "solute", "solvent", "stp", "strong acid", "strong nuclear force", "sublimation", "synthesis", "system", "temperature", "theoretical yield", "thermodynamics", "titration", "triple point", "unit cell", "unsaturated", "unshared electron pair", "valence electron", "volatile", "vespr", "solution", "precipitation" , "element", "isotope", "matter", "homogenous", "heterogenous", "M", "volume", "precipitate", "solution", "abundance", "acid", "base", "alkaline", "substance", "state", "atom"],
+         "responses": ["This is a chemistry question!"],
+         "context": [""]
+        }
+
+   ]
+}
